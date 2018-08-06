@@ -15,7 +15,6 @@ class App < Sinatra::Base
           SuperHero.new({name: member_params[:name], power: member_params[:power], bio: member_params[:bio]})
         end
         erb :'views/team'
-      end
     end
 
 end
